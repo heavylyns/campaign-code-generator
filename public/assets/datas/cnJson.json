@@ -1,0 +1,277 @@
+var cnDataJson = {
+    "agency" : [ {
+      "displayName" : "phd",
+      "name" : "phd"
+    } ],
+    "brand" : [ {
+      "displayName" : "etudehouse",
+      "name" : "etudehouse"
+    }, {
+      "displayName" : "hera",
+      "name" : "hera"
+    }, {
+      "displayName" : "innisfree",
+      "name" : "innisfree"
+    }, {
+      "displayName" : "iope",
+      "name" : "iope"
+    }, {
+      "displayName" : "laneige",
+      "name" : "laneige"
+    }, {
+      "displayName" : "mamonde",
+      "name" : "mamonde"
+    }, {
+      "displayName" : "ryo",
+      "name" : "ryo"
+    }, {
+      "displayName" : "sulwhasoo",
+      "name" : "sulwhasoo"
+    } ],
+    "campaign_name" : {
+      "cmpcodetest" : "cmpcodetest"
+    },
+    "campaign_type" : [ {
+      "displayName" : "dabnn (Display banner)",
+      "name" : "dabnn"
+    }, {
+      "displayName" : "dapop (Display pops up)",
+      "name" : "dapop"
+    }, {
+      "displayName" : "daimg (Display images)",
+      "name" : "daimg"
+    }, {
+      "displayName" : "daetc (Display etc)",
+      "name" : "daetc"
+    }, {
+      "displayName" : "feed (Feed ad)",
+      "name" : "feed"
+    }, {
+      "displayName" : "vod (Video Ad)",
+      "name" : "vod"
+    }, {
+      "displayName" : "damws (Display mobile welcome screen)",
+      "name" : "damws"
+    }, {
+      "displayName" : "other",
+      "name" : "other"
+    } ],
+    "channel" : [ {
+      "channel_name" : [ {
+        "displayName" : "tencent",
+        "name" : "tencent"
+      }, {
+        "displayName" : "sina",
+        "name" : "sina"
+      }, {
+        "displayName" : "nate",
+        "name" : "nate"
+      }, {
+        "displayName" : "sohu",
+        "name" : "sohu"
+      }, {
+        "displayName" : "netease",
+        "name" : "netease"
+      } ],
+      "displayName" : "portal",
+      "name" : "portal"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "wechat",
+        "name" : "wechat"
+      }, {
+        "displayName" : "weibo",
+        "name" : "weibo"
+      }, {
+        "displayName" : "qzone",
+        "name" : "qzone"
+      } ],
+      "displayName" : "social",
+      "name" : "social"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "newemail",
+        "name" : "newemail"
+      } ],
+      "displayName" : "email",
+      "name" : "email"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "rayli",
+        "name" : "rayli"
+      }, {
+        "displayName" : "onlylady",
+        "name" : "onlylady"
+      }, {
+        "displayName" : "yoka",
+        "name" : "yoka"
+      }, {
+        "displayName" : "self",
+        "name" : "self"
+      }, {
+        "displayName" : "haibao",
+        "name" : "haibao"
+      }, {
+        "displayName" : "ellechina",
+        "name" : "ellechina"
+      }, {
+        "displayName" : "pclady",
+        "name" : "pclady"
+      }, {
+        "displayName" : "kimiss",
+        "name" : "kimiss"
+      }, {
+        "displayName" : "vogue",
+        "name" : "vogue"
+      }, {
+        "displayName" : "bazaar",
+        "name" : "bazaar"
+      } ],
+      "displayName" : "media",
+      "name" : "media"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "youtube",
+        "name" : "youtube"
+      }, {
+        "displayName" : "iqiyi",
+        "name" : "iqiyi"
+      }, {
+        "displayName" : "tencentvideo",
+        "name" : "tencentvideo"
+      }, {
+        "displayName" : "letv",
+        "name" : "letv"
+      }, {
+        "displayName" : "sohuvideo",
+        "name" : "sohuvideo"
+      }, {
+        "displayName" : "mangotv",
+        "name" : "mangotv"
+      }, {
+        "displayName" : "fushion",
+        "name" : "fushion"
+      } ],
+      "displayName" : "ivideo",
+      "name" : "ivideo"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "tmall",
+        "name" : "tmall"
+      }, {
+        "displayName" : "Jingdong",
+        "name" : "Jingdong"
+      } ],
+      "displayName" : "ecommerce",
+      "name" : "ecommerce"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "xiaomi",
+        "name" : "xiaomi"
+      }, {
+        "displayName" : "meituxiuxiu",
+        "name" : "meituxiuxiu"
+      }, {
+        "displayName" : "meiyan",
+        "name" : "meiyan"
+      }, {
+        "displayName" : "poco",
+        "name" : "poco"
+      }, {
+        "displayName" : "camera360",
+        "name" : "camera360"
+      }, {
+        "displayName" : "qqmusic",
+        "name" : "qqmusic"
+      }, {
+        "displayName" : "neteasemusic",
+        "name" : "neteasemusic"
+      }, {
+        "displayName" : "kuwo",
+        "name" : "kuwo"
+      }, {
+        "displayName" : "kugou",
+        "name" : "kugou"
+      }, {
+        "displayName" : "meila",
+        "name" : "meila"
+      }, {
+        "displayName" : "mocha",
+        "name" : "mocha"
+      }, {
+        "displayName" : "meizhuangxinde",
+        "name" : "meizhuangxinde"
+      }, {
+        "displayName" : "kimiss",
+        "name" : "kimiss"
+      }, {
+        "displayName" : "meiya",
+        "name" : "meiya"
+      }, {
+        "displayName" : "ilady",
+        "name" : "ilady"
+      }, {
+        "displayName" : "duitang",
+        "name" : "duitang"
+      }, {
+        "displayName" : "yhouse",
+        "name" : "yhouse"
+      }, {
+        "displayName" : "jinritoutiao",
+        "name" : "jinritoutiao"
+      }, {
+        "displayName" : "tencentnews",
+        "name" : "tencentnews"
+      }, {
+        "displayName" : "neteasenews",
+        "name" : "neteasenews"
+      }, {
+        "displayName" : "viva",
+        "name" : "viva"
+      }, {
+        "displayName" : "babytree",
+        "name" : "babytree"
+      }, {
+        "displayName" : "huashengwifi",
+        "name" : "huashengwifi"
+      }, {
+        "displayName" : "gewara",
+        "name" : "gewara"
+      }, {
+        "displayName" : "qunar",
+        "name" : "qunar"
+      }, {
+        "displayName" : "bilibili",
+        "name" : "bilibili"
+      }, {
+        "displayName" : "moji",
+        "name" : "moji"
+      }, {
+        "displayName" : "youdao",
+        "name" : "youdao"
+      }, {
+        "displayName" : "qdaily",
+        "name" : "qdaily"
+      }, {
+        "displayName" : "gdt",
+        "name" : "gdt"
+      }, {
+        "displayName" : "yoyi",
+        "name" : "yoyi"
+      }, {
+        "displayName" : "behe",
+        "name" : "behe"
+      } ],
+      "displayName" : "other",
+      "name" : "other"
+    } ],
+    "countries" : [ {
+      "displayName" : "kr",
+      "name" : "kr",
+      "selected" : false
+    }, {
+      "displayName" : "cn",
+      "name" : "cn",
+      "selected" : true
+    } ]
+  }

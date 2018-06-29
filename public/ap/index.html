@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="stylesheet" type="text/css" href="../assets/coral.css">
+		<link rel="stylesheet" type="text/css" href="../assets/prettify.css">
+		<link rel="stylesheet" type="text/css" href="../assets/jsdoc-default.css">
+		<link rel="stylesheet" type="text/css" href="../assets/simple-grid.css">
+
+
+		<script src="../assets/jquery.js"></script>
+		<script src="../assets/js.cookie.js"></script>
+		<script src="../assets/moment.js"></script>
+		<script src="../assets/prettify.js"></script>
+		<script src="../assets/coral-docs.js"></script>
+		<script src="../assets/coral.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+		<script src="../assets/ccg.js"></script>
+	</head>
+	<body>
+		<header class="top row">
+			<div class="col-6">
+				<img style="width:200px" src="../assets/amore-logo.png"/>
+			</div>
+			<div class="col-6 right guide-Header-nav">
+				<h4>Campaign Code Generator V4.0</h4>
+				<!--<a is="coral-anchorbutton" variant="default" href="/">Select Country</a>-->
+			</div>
+		</header>
+		<hr>
+		<section id="loading" class="row">
+			<div class="col-12 center">
+				<coral-wait size="L"></coral-wait>
+				<p>Loading...</p>
+			</div>
+		</section>
+		
+		<div id="section-wrapper" style="display:none">
+			<section class="container intro">
+				<coral-accordion>
+					<coral-accordion-item>
+						<coral-accordion-item-label data-i18n="dic_helpTitle_01"></coral-accordion-item-label>
+						<coral-accordion-item-content data-i18n="dic_help_01">
+
+						</coral-accordion-item-content>
+					</coral-accordion-item>
+					<coral-accordion-item>
+						<coral-accordion-item-label data-i18n="dic_helpTitle_02"></coral-accordion-item-label>
+						<coral-accordion-item-content data-i18n="dic_help_02">
+						</coral-accordion-item-content>
+					</coral-accordion-item>
+					<coral-accordion-item>
+						<coral-accordion-item-label data-i18n="dic_helpTitle_03"></coral-accordion-item-label>
+						<coral-accordion-item-content data-i18n="dic_help_03">
+						</coral-accordion-item-content>
+					</coral-accordion-item>
+				</coral-accordion>	
+			</section>
+
+			<section class="container default-info ">
+				<h3 data-i18n="dic_sectionTitle_01"></h3>
+				<span data-i18n="dic-sectionDscpt_01"></span>
+				<hr>
+				<div class="row coral-Form--vertical">
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="brand" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_01"></label>
+						<coral-select class="coral-Form-field" name="brand" placeholder="" labelledby="brand" required data-i18n-attr="placeholder" data-i18n="dic_select"></coral-select>
+					</div>
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="countries" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_02"></label>
+						<coral-select class="coral-Form-field" name="countries" placeholder="" labelledby="countries" required data-i18n-attr="placeholder" data-i18n="dic_select"></coral-select>
+					</div>
+				</div>
+				<div class="row coral-Form--aligned" >
+					<div class="coral-Form-fieldwrapper">
+						<label class="coral-Form-fieldlabel" labelledby="general-holder" data-i18n="dic_btnDscpt_01"></label>
+						<coral-switch class="coral-Form-field" id="general-holder" name="general-holder"></coral-switch>
+					</div>
+				</div>
+			</section>
+
+			<section class="container campaign-info coral-Form--vertical">
+				<h3 data-i18n="dic_sectionTitle_02"></h3>
+				<span data-i18n="dic-sectionDscpt_02"></span>
+				<hr>
+				<div class="row">
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="campaign_name" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_03"></label>
+						<coral-icon class="coral-Form-fieldinfo" icon="helpCircle" size="S" id="campaign_name-info"></coral-icon>
+						<coral-tooltip variant="info" placement="left" target="#campaign_name-info" data-i18n="dic_msgBox_01"></coral-tooltip>
+						<input class="coral-Form-field coral-Textfield" name="campaign_name" type="text" placeholder="20자 이하 입력" maxlength="20" required keycheck data-i18n="dic_char_20" data-i18n-attr="placeholder">
+					</div>
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="device" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_04"></label>
+						<coral-icon class="coral-Form-fieldinfo" icon="helpCircle" size="S" id="device-info"></coral-icon>
+						<coral-tooltip variant="info" placement="left" target="#device-info" data-i18n="dic_msgBox_02"></coral-tooltip>
+						<coral-select class="coral-Form-field" match="startswith" name="device" labelledby="devide" required>
+							<coral-select-item value="p">PC</coral-select-item>
+							<coral-select-item value="m">Mobile</coral-select-item>
+							<coral-select-item value="a">App</coral-select-item>
+						</coral-select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="channel" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_05"></label>
+						<coral-icon class="coral-Form-fieldinfo" icon="helpCircle" size="S" id="channel-info"></coral-icon>
+						<coral-tooltip variant="info" placement="left" target="#channel-info" data-i18n="dic_msgBox_03"></coral-tooltip>
+						<coral-select class="coral-Form-field" placeholder="" name="channel" labelledby="channelType" required data-i18n="dic_select" data-i18n-attr="placeholder"></coral-select>
+					</div>
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="channel_name" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_06"></label>
+						<coral-icon class="coral-Form-fieldinfo" icon="helpCircle" size="S" id="channel_name-info"></coral-icon>
+						<coral-tooltip variant="info" placement="left" target="#channel_name-info" data-i18n="dic_msgBox_04"></coral-tooltip>
+						<coral-select class="coral-Form-field" placeholder="" name="channel_name" labelledby="channel_name" required data-i18n="dic_select" data-i18n-attr="placeholder"></coral-select>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="campaign_type" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_07"></label>
+						<coral-icon class="coral-Form-fieldinfo" icon="helpCircle" size="S" id="campaign_type-info"></coral-icon>
+						<coral-tooltip variant="info" placement="left" target="#campaign_type-info" data-i18n="dic_msgBox_05"></coral-tooltip>
+						<coral-select class="coral-Form-field" placeholder="" name="campaign_type" labelledby="campaign_type" required data-i18n="dic_select" data-i18n-attr="placeholder">
+						</coral-select>
+					</div>
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="campaign_detail" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_08"></label>
+						<coral-icon class="coral-Form-fieldinfo" icon="helpCircle" size="S" id="campaign_detail-info"></coral-icon>
+						<coral-tooltip variant="info" placement="left" target="#campaign_detail-info" data-i18n="dic_msgBox_06"></coral-tooltip>
+						<input class="coral-Form-field coral-Textfield" name="campaign_detail" type="text" placeholder="10자 이하 입력" maxlength="10" keycheck data-i18n="dic_char_10" data-i18n-attr="placeholder">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="startdate" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_09"></label>
+						<coral-datepicker class="coral-Form-field" placeholder="" name="startdate" value="2015-01-15" valueformat="YYMMDD" displayformat="YYYY-MM-DD" startday="0" required data-i18n="dic_select" data-i18n-attr="placeholder">
+						</coral-datepicker>
+					</div>
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="enddate" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_10"></label>
+						<coral-datepicker class="coral-Form-field" placeholder="" name="enddate" value="2015-01-15" valueformat="YYMMDD" displayformat="YYYY-MM-DD" startday="0" required data-i18n="dic_select" data-i18n-attr="placeholder">
+						</coral-datepicker>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="container manager-info coral-Form--vertical">
+				<h3 data-i18n="dic_sectionTitle_03"></h3>
+				<span data-i18n="dic-sectionDscpt_03"></span>
+				<hr>
+				<div class="row">
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label id="agency" class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_11"></label>
+						<coral-autocomplete class="coral-Form-field" placeholder="" match="startswith" name="agency" labelledby="agency" required data-i18n="dic_select" data-i18n-attr="placeholder"></coral-autocomplete>
+						<!--<input class="coral-Form-field coral-Textfield" name="manager_company" type="text" placeholder="10자 이하 입력" maxlength="10" required keycheck>-->
+					</div>
+					<div class="col-6 coral-Form-fieldwrapper">
+						<label class="coral-Form-fieldlabel" data-i18n="dic_itemTitle_12"></label>
+						<input class="coral-Form-field coral-Textfield" name="manager_name" type="text" placeholder="10자 이하 입력" maxlength="10" required keycheck data-i18n="dic_char_10" data-i18n-attr="placeholder">
+					</div>
+
+				</div>
+				<div class="row coral-Form--aligned" >
+					<div class="coral-Form-fieldwrapper">
+						<label class="coral-Form-fieldlabel" labelledby="manager-holder" data-i18n="dic_btnDscpt_02"></label>
+						<coral-switch class="coral-Form-field" id="manager-holder" name="manager-holder"></coral-switch>
+					</div>
+				</div>
+			</section>
+			<br>
+
+			<section class="container action-bar">
+				<div class="row right">
+					<button is="coral-button" variant="default" icon="refresh" iconsize="S" onclick="campaignData.reset()" data-i18n="dic_alt_09">RESET</button>
+					<button is="coral-button" variant="primary" icon="checkCircle" iconsize="S" onclick="campaignData.generate()" data-i18n="dic_alt_10">SUBMIT</button>
+				</div>
+				<br>
+				<div class="row right">
+					<button is="coral-button" id="paste" variant="default" icon="copy" iconsize="S" style="display:none" onclick="campaignData.copyCode()" data-i18n="dic_alt_07"></button>
+				</div>
+				<coral-alert variant="success" class="row"  style="display:none">
+					<coral-alert-header data-i18n="dic_alt_11"></coral-alert-header>
+					<coral-alert-content><input is="coral-textfield" class="row" placeholder="" id="result" value="CAMPAIGN_CODE_GENERATED"></coral-alert-content>
+				</coral-alert>
+				<coral-alert variant="warning" class="row" style="display:none">
+					<coral-alert-header data-i18n="dic_alt_12"></coral-alert-header>
+					<coral-alert-content data-i18n="dic_alt_13"></coral-alert-content>
+				</coral-alert>
+				<coral-alert variant="error" class="row" style="display:none">
+					<coral-alert-header data-i18n="dic_alt_14"></coral-alert-header>
+					<coral-alert-content data-i18n="dic_alt_15"></coral-alert-content>
+				</coral-alert>
+			</section>
+			<br>
+			
+			<footer style="height:3rem; background:black">
+
+			</footer>
+		</div>
+		
+	</body>
+</html>

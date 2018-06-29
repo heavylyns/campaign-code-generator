@@ -1,0 +1,149 @@
+  var krDataJson = {
+    "utm_source" : [ {
+      "displayName" : "naver",
+      "name" : "naver"
+    }, {
+      "displayName" : "daum",
+      "name" : "daum"
+    }, {
+      "displayName" : "google",
+      "name" : "google"
+    }, {
+      "displayName" : "bing",
+      "name" : "bing"
+    }, {
+      "displayName" : "yahoo",
+      "name" : "yahoo"
+    }, {
+      "displayName" : "tistory",
+      "name" : "tistory"
+    }, {
+      "displayName" : "facebook",
+      "name" : "facebook"
+    }, {
+      "displayName" : "instagram",
+      "name" : "instagram"
+    }, {
+      "displayName" : "twitter",
+      "name" : "twitter"
+    }, {
+      "displayName" : "kakao",
+      "name" : "kakao"
+    }, {
+      "displayName" : "youtube",
+      "name" : "youtube"
+    }, {
+      "displayName" : "edm",
+      "name" : "edm"
+    }, {
+      "displayName" : "mobon",
+      "name" : "mobon"
+    }, {
+      "displayName" : "criteo",
+      "name" : "criteo"
+    }, {
+      "displayName" : "newsletter",
+      "name" : "newsletter"
+    }, {
+      "displayName" : "phone",
+      "name" : "phone"
+    } ],
+    "utm_medium" : [ {
+      "displayName" : "cpc",
+      "name" : "cpc"
+    }, {
+      "displayName" : "cpm",
+      "name" : "cpm"
+    }, {
+      "displayName" : "display",
+      "name" : "display"
+    }, {
+      "displayName" : "banner",
+      "name" : "banner"
+    }, {
+      "displayName" : "social",
+      "name" : "social"
+    }, {
+      "displayName" : "email",
+      "name" : "email"
+    }, {
+      "displayName" : "blog",
+      "name" : "blog"
+    }, {
+      "displayName" : "post",
+      "name" : "post"
+    }, {
+      "displayName" : "tv",
+      "name" : "tv"
+    }, {
+      "displayName" : "commbox_mobile",
+      "name" : "commbox_mobile"
+    }, {
+      "displayName" : "commbox_pc",
+      "name" : "commbox_pc"
+    }, {
+      "displayName" : "castbox",
+      "name" : "castbox"
+    }, {
+      "displayName" : "trendpick",
+      "name" : "trendpick"
+    }, {
+      "displayName" : "zigzag",
+      "name" : "zigzag"
+    }, {
+      "displayName" : "mobon",
+      "name" : "mobon"
+    }, {
+      "displayName" : "sms",
+      "name" : "sms"
+    } ],
+    "utm_campaign" : [ {
+      "displayName" : "한화닷컴",
+      "name" : "한화닷컴"
+    }, {
+      "displayName" : "한화",
+      "name" : "한화"
+    }, {
+      "displayName" : "한화에어로스페이스",
+      "name" : "한화에어로스페이스"
+    }, {
+      "displayName" : "한화테크윈",
+      "name" : "한화테크윈"
+    }, {
+      "displayName" : "한화지상방산",
+      "name" : "한화지상방산"
+    }, {
+      "displayName" : "한화시스템",
+      "name" : "한화시스템"
+    }, {
+      "displayName" : "한화디펜스",
+      "name" : "한화디펜스"
+    }, {
+      "displayName" : "한화파워시스템",
+      "name" : "한화파워시스템"
+    }, {
+      "displayName" : "한화정말기계",
+      "name" : "한화정말기계"
+    }, {
+      "displayName" : "한화케미칼",
+      "name" : "한화케미칼"
+    }, {
+      "displayName" : "한화종합화학",
+      "name" : "한화종합화학"
+    }, {
+      "displayName" : "한화토탈",
+      "name" : "한화토탈"
+    }, {
+      "displayName" : "한화첨단소재",
+      "name" : "한화첨단소재"
+    }, {
+      "displayName" : "여천NCC",
+      "name" : "여천NCC"
+    }, {
+      "displayName" : "한화건설",
+      "name" : "한화건설"
+    }, {
+      "displayName" : "한화큐셀",
+      "name" : "한화큐셀"
+    } ]
+  }

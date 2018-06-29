@@ -1,0 +1,635 @@
+{
+  "cn" : {
+    "agency" : [ {
+      "displayName" : "phd",
+      "name" : "phd"
+    } ],
+    "brand" : [ {
+      "displayName" : "etudehouse",
+      "name" : "etudehouse"
+    }, {
+      "displayName" : "hera",
+      "name" : "hera"
+    }, {
+      "displayName" : "innisfree",
+      "name" : "innisfree"
+    }, {
+      "displayName" : "iope",
+      "name" : "iope"
+    }, {
+      "displayName" : "laneige",
+      "name" : "laneige"
+    }, {
+      "displayName" : "mamonde",
+      "name" : "mamonde"
+    }, {
+      "displayName" : "ryo",
+      "name" : "ryo"
+    }, {
+      "displayName" : "sulwhasoo",
+      "name" : "sulwhasoo"
+    } ],
+    "campaign_name" : {
+      "cmpcodetest" : "cmpcodetest"
+    },
+    "campaign_type" : [ {
+      "displayName" : "dabnn (Display banner)",
+      "name" : "dabnn"
+    }, {
+      "displayName" : "dapop (Display pops up)",
+      "name" : "dapop"
+    }, {
+      "displayName" : "daimg (Display images)",
+      "name" : "daimg"
+    }, {
+      "displayName" : "daetc (Display etc)",
+      "name" : "daetc"
+    }, {
+      "displayName" : "feed (Feed ad)",
+      "name" : "feed"
+    }, {
+      "displayName" : "vod (Video Ad)",
+      "name" : "vod"
+    }, {
+      "displayName" : "damws (Display mobile welcome screen)",
+      "name" : "damws"
+    }, {
+      "displayName" : "other",
+      "name" : "other"
+    } ],
+    "channel" : [ {
+      "channel_name" : [ {
+        "displayName" : "tencent",
+        "name" : "tencent"
+      }, {
+        "displayName" : "sina",
+        "name" : "sina"
+      }, {
+        "displayName" : "nate",
+        "name" : "nate"
+      }, {
+        "displayName" : "sohu",
+        "name" : "sohu"
+      }, {
+        "displayName" : "netease",
+        "name" : "netease"
+      } ],
+      "displayName" : "portal",
+      "name" : "portal"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "wechat",
+        "name" : "wechat"
+      }, {
+        "displayName" : "weibo",
+        "name" : "weibo"
+      }, {
+        "displayName" : "qzone",
+        "name" : "qzone"
+      } ],
+      "displayName" : "social",
+      "name" : "social"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "newemail",
+        "name" : "newemail"
+      } ],
+      "displayName" : "email",
+      "name" : "email"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "rayli",
+        "name" : "rayli"
+      }, {
+        "displayName" : "onlylady",
+        "name" : "onlylady"
+      }, {
+        "displayName" : "yoka",
+        "name" : "yoka"
+      }, {
+        "displayName" : "self",
+        "name" : "self"
+      }, {
+        "displayName" : "haibao",
+        "name" : "haibao"
+      }, {
+        "displayName" : "ellechina",
+        "name" : "ellechina"
+      }, {
+        "displayName" : "pclady",
+        "name" : "pclady"
+      }, {
+        "displayName" : "kimiss",
+        "name" : "kimiss"
+      }, {
+        "displayName" : "vogue",
+        "name" : "vogue"
+      }, {
+        "displayName" : "bazaar",
+        "name" : "bazaar"
+      } ],
+      "displayName" : "media",
+      "name" : "media"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "youtube",
+        "name" : "youtube"
+      }, {
+        "displayName" : "iqiyi",
+        "name" : "iqiyi"
+      }, {
+        "displayName" : "tencentvideo",
+        "name" : "tencentvideo"
+      }, {
+        "displayName" : "letv",
+        "name" : "letv"
+      }, {
+        "displayName" : "sohuvideo",
+        "name" : "sohuvideo"
+      }, {
+        "displayName" : "mangotv",
+        "name" : "mangotv"
+      }, {
+        "displayName" : "fushion",
+        "name" : "fushion"
+      } ],
+      "displayName" : "ivideo",
+      "name" : "ivideo"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "tmall",
+        "name" : "tmall"
+      }, {
+        "displayName" : "Jingdong",
+        "name" : "Jingdong"
+      } ],
+      "displayName" : "ecommerce",
+      "name" : "ecommerce"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "xiaomi",
+        "name" : "xiaomi"
+      }, {
+        "displayName" : "meituxiuxiu",
+        "name" : "meituxiuxiu"
+      }, {
+        "displayName" : "meiyan",
+        "name" : "meiyan"
+      }, {
+        "displayName" : "poco",
+        "name" : "poco"
+      }, {
+        "displayName" : "camera360",
+        "name" : "camera360"
+      }, {
+        "displayName" : "qqmusic",
+        "name" : "qqmusic"
+      }, {
+        "displayName" : "neteasemusic",
+        "name" : "neteasemusic"
+      }, {
+        "displayName" : "kuwo",
+        "name" : "kuwo"
+      }, {
+        "displayName" : "kugou",
+        "name" : "kugou"
+      }, {
+        "displayName" : "meila",
+        "name" : "meila"
+      }, {
+        "displayName" : "mocha",
+        "name" : "mocha"
+      }, {
+        "displayName" : "meizhuangxinde",
+        "name" : "meizhuangxinde"
+      }, {
+        "displayName" : "kimiss",
+        "name" : "kimiss"
+      }, {
+        "displayName" : "meiya",
+        "name" : "meiya"
+      }, {
+        "displayName" : "ilady",
+        "name" : "ilady"
+      }, {
+        "displayName" : "duitang",
+        "name" : "duitang"
+      }, {
+        "displayName" : "yhouse",
+        "name" : "yhouse"
+      }, {
+        "displayName" : "jinritoutiao",
+        "name" : "jinritoutiao"
+      }, {
+        "displayName" : "tencentnews",
+        "name" : "tencentnews"
+      }, {
+        "displayName" : "neteasenews",
+        "name" : "neteasenews"
+      }, {
+        "displayName" : "viva",
+        "name" : "viva"
+      }, {
+        "displayName" : "babytree",
+        "name" : "babytree"
+      }, {
+        "displayName" : "huashengwifi",
+        "name" : "huashengwifi"
+      }, {
+        "displayName" : "gewara",
+        "name" : "gewara"
+      }, {
+        "displayName" : "qunar",
+        "name" : "qunar"
+      }, {
+        "displayName" : "bilibili",
+        "name" : "bilibili"
+      }, {
+        "displayName" : "moji",
+        "name" : "moji"
+      }, {
+        "displayName" : "youdao",
+        "name" : "youdao"
+      }, {
+        "displayName" : "qdaily",
+        "name" : "qdaily"
+      }, {
+        "displayName" : "gdt",
+        "name" : "gdt"
+      }, {
+        "displayName" : "yoyi",
+        "name" : "yoyi"
+      }, {
+        "displayName" : "behe",
+        "name" : "behe"
+      } ],
+      "displayName" : "other",
+      "name" : "other"
+    } ],
+    "countries" : [ {
+      "displayName" : "cn",
+      "name" : "cn",
+      "selected" : true
+    } ]
+  },
+  "kr" : {
+    "agency" : [ {
+      "displayName" : "ap",
+      "name" : "ap"
+    }, {
+      "displayName" : "cnx",
+      "name" : "cnx"
+    }, {
+      "displayName" : "proximity",
+      "name" : "proximity"
+    } ],
+    "brand" : [ {
+      "displayName" : "annickgoutal (아닉구딸)",
+      "name" : "annickgoutal"
+    }, {
+      "displayName" : "apmall (AP 직영몰)",
+      "name" : "apmall"
+    }, {
+      "displayName" : "aritaum (아리따움)",
+      "name" : "aritaum"
+    }, {
+      "displayName" : "brandap (아모레퍼시픽)",
+      "name" : "brandap"
+    }, {
+      "displayName" : "beautypoint (뷰티포인트)",
+      "name" : "beautypoint"
+    }, {
+      "displayName" : "dantrol (댄트롤)",
+      "name" : "dantrol"
+    }, {
+      "displayName" : "freshpop (프레시팝)",
+      "name" : "freshpop"
+    }, {
+      "displayName" : "gaondodam (가온도담)",
+      "name" : "gaondodam"
+    }, {
+      "displayName" : "hanyul (한율)",
+      "name" : "hanyul"
+    }, {
+      "displayName" : "happybath (해피바쓰)",
+      "name" : "happybath"
+    }, {
+      "displayName" : "hera (헤라)",
+      "name" : "hera"
+    }, {
+      "displayName" : "illi (일리)",
+      "name" : "illi"
+    }, {
+      "displayName" : "iope (아이오페)",
+      "name" : "iope"
+    }, {
+      "displayName" : "laneige (라네즈)",
+      "name" : "laneige"
+    }, {
+      "displayName" : "lirikos (리리코스 )",
+      "name" : "lirikos"
+    }, {
+      "displayName" : "lirikosmarine (리리코스 마린에너지)",
+      "name" : "lirikosmarine"
+    }, {
+      "displayName" : "lolitalempicka (롤리타렘피카)",
+      "name" : "lolitalempicka"
+    }, {
+      "displayName" : "makeon (메이크온)",
+      "name" : "makeon"
+    }, {
+      "displayName" : "mamonde (마몽드)",
+      "name" : "mamonde"
+    }, {
+      "displayName" : "median (메디안)",
+      "name" : "median"
+    }, {
+      "displayName" : "mirepa (미래파)",
+      "name" : "mirepa"
+    }, {
+      "displayName" : "miseenscene (미쟝센)",
+      "name" : "miseenscene"
+    }, {
+      "displayName" : "odyssey (오딧세이)",
+      "name" : "odyssey"
+    }, {
+      "displayName" : "outrun (아웃런)",
+      "name" : "outrun"
+    }, {
+      "displayName" : "primera (프리메라)",
+      "name" : "primera"
+    }, {
+      "displayName" : "ryo (려)",
+      "name" : "ryo"
+    }, {
+      "displayName" : "songyum (송염)",
+      "name" : "songyum"
+    }, {
+      "displayName" : "sulwhasoo (설화수)",
+      "name" : "sulwhasoo"
+    }, {
+      "displayName" : "teenclear (틴:클리어)",
+      "name" : "teenclear"
+    }, {
+      "displayName" : "verite (베리떼)",
+      "name" : "verite"
+    }, {
+      "displayName" : "vitalbeautie (바이탈뷰티)",
+      "name" : "vitalbeautie"
+    } ],
+    "campaign_name" : {
+      "cmpcodetest" : "cmpcodetest"
+    },
+    "campaign_type" : [ {
+      "displayName" : "sa (검색 광고)",
+      "name" : "sa"
+    }, {
+      "displayName" : "sabrd (브랜드 검색)",
+      "name" : "sabrd"
+    }, {
+      "displayName" : "saetc (기타 검색)",
+      "name" : "saetc"
+    }, {
+      "displayName" : "dabnn (디스플레이 배너)",
+      "name" : "dabnn"
+    }, {
+      "displayName" : "dapop (디스플레이 팝업)",
+      "name" : "dapop"
+    }, {
+      "displayName" : "daimg (디스플레이 이미지)",
+      "name" : "daimg"
+    }, {
+      "displayName" : "daetc (디스플레이 기타)",
+      "name" : "daetc"
+    }, {
+      "displayName" : "posting (일반 포스팅)",
+      "name" : "posting"
+    }, {
+      "displayName" : "feed (광고 피드)",
+      "name" : "feed"
+    }, {
+      "displayName" : "vod (동영상 광고)",
+      "name" : "vod"
+    }, {
+      "displayName" : "other (기타)",
+      "name" : "other"
+    } ],
+    "channel" : [ {
+      "channel_name" : [ {
+        "displayName" : "daum",
+        "name" : "daum"
+      }, {
+        "displayName" : "naver",
+        "name" : "naver"
+      }, {
+        "displayName" : "nate",
+        "name" : "nate"
+      }, {
+        "displayName" : "google",
+        "name" : "google"
+      }, {
+        "displayName" : "yahoo",
+        "name" : "yahoo"
+      }, {
+        "displayName" : "zum",
+        "name" : "zum"
+      }, {
+        "displayName" : "podgate",
+        "name" : "podgate"
+      } ],
+      "displayName" : "portal (포탈)",
+      "name" : "portal"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "facebook",
+        "name" : "facebook"
+      }, {
+        "displayName" : "kakaotalk",
+        "name" : "kakaotalk"
+      }, {
+        "displayName" : "kakaostory",
+        "name" : "kakaostory"
+      }, {
+        "displayName" : "instagram",
+        "name" : "instagram"
+      }, {
+        "displayName" : "band",
+        "name" : "band"
+      }, {
+        "displayName" : "line",
+        "name" : "line"
+      }, {
+        "displayName" : "wechat",
+        "name" : "wechat"
+      } ],
+      "displayName" : "social (소셜)",
+      "name" : "social"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "newemail",
+        "name" : "newemail"
+      } ],
+      "displayName" : "email (이메일)",
+      "name" : "email"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "chosun",
+        "name" : "chosun"
+      }, {
+        "displayName" : "dcinside",
+        "name" : "dcinside"
+      }, {
+        "displayName" : "donga",
+        "name" : "donga"
+      }, {
+        "displayName" : "epass",
+        "name" : "epass"
+      }, {
+        "displayName" : "ezday",
+        "name" : "ezday"
+      }, {
+        "displayName" : "findall",
+        "name" : "findall"
+      }, {
+        "displayName" : "humoruniv",
+        "name" : "humoruniv"
+      }, {
+        "displayName" : "imbc",
+        "name" : "imbc"
+      }, {
+        "displayName" : "inven",
+        "name" : "inven"
+      }, {
+        "displayName" : "kbs",
+        "name" : "kbs"
+      }, {
+        "displayName" : "mentplus",
+        "name" : "mentplus"
+      }, {
+        "displayName" : "mgoon",
+        "name" : "mgoon"
+      }, {
+        "displayName" : "nocutnews",
+        "name" : "nocutnews"
+      }, {
+        "displayName" : "oeker",
+        "name" : "oeker"
+      }, {
+        "displayName" : "pandora",
+        "name" : "pandora"
+      }, {
+        "displayName" : "sbs",
+        "name" : "sbs"
+      }, {
+        "displayName" : "sportschosun",
+        "name" : "sportschosun"
+      }, {
+        "displayName" : "sportsseoul",
+        "name" : "sportsseoul"
+      }, {
+        "displayName" : "tving",
+        "name" : "tving"
+      }, {
+        "displayName" : "womansmile",
+        "name" : "womansmile"
+      }, {
+        "displayName" : "yeozawa",
+        "name" : "yeozawa"
+      } ],
+      "displayName" : "media (미디어 채널)",
+      "name" : "media"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "youtube",
+        "name" : "youtube"
+      }, {
+        "displayName" : "smr",
+        "name" : "smr"
+      } ],
+      "displayName" : "ivideo (비디오 채널)",
+      "name" : "ivideo"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "lotte (롯데닷컴)",
+        "name" : "lotte"
+      }, {
+        "displayName" : "gmarket (G마켓)",
+        "name" : "gmarket"
+      }, {
+        "displayName" : "11st (11번가)",
+        "name" : "11st"
+      }, {
+        "displayName" : "hnsmall (홈앤쇼핑)",
+        "name" : "hnsmall"
+      }, {
+        "displayName" : "emart (이마트몰)",
+        "name" : "emart"
+      }, {
+        "displayName" : "interpark (인터파크)",
+        "name" : "interpark"
+      }, {
+        "displayName" : "ezwel (이지웰)",
+        "name" : "ezwel"
+      }, {
+        "displayName" : "nsmall (NS쇼핑)",
+        "name" : "nsmall"
+      }, {
+        "displayName" : "auction (옥션)",
+        "name" : "auction"
+      }, {
+        "displayName" : "lotteimall (롯데아이몰)",
+        "name" : "lotteimall"
+      }, {
+        "displayName" : "kakao (카카오톡)",
+        "name" : "kakao"
+      }, {
+        "displayName" : "cjmall (CJ몰)",
+        "name" : "cjmall"
+      }, {
+        "displayName" : "hyundaicard (현대카드)",
+        "name" : "hyundaicard"
+      }, {
+        "displayName" : "akmall (AK몰)",
+        "name" : "akmall"
+      }, {
+        "displayName" : "shinsegaemall (신세계)",
+        "name" : "shinsegaemall"
+      }, {
+        "displayName" : "memebox (미미박스)",
+        "name" : "memebox"
+      }, {
+        "displayName" : "hmall (H몰)",
+        "name" : "hmall"
+      }, {
+        "displayName" : "wemap (위메프)",
+        "name" : "wemap"
+      }, {
+        "displayName" : "coupang (쿠팡)",
+        "name" : "coupang"
+      }, {
+        "displayName" : "tmon (티몬)",
+        "name" : "tmon"
+      }, {
+        "displayName" : "gsshop (GS이숍)",
+        "name" : "gsshop"
+      }, {
+        "displayName" : "nhmall (NH몰)",
+        "name" : "nhmall"
+      } ],
+      "displayName" : "ecommerce (영업 채널)",
+      "name" : "ecommerce"
+    }, {
+      "channel_name" : [ {
+        "displayName" : "newch",
+        "name" : "newch"
+      } ],
+      "displayName" : "other (기타)",
+      "name" : "other"
+    } ],
+    "countries" : [ {
+      "displayName" : "kr (대한민국)",
+      "name" : "kr",
+      "selected" : true
+    } ]
+  }
+}
